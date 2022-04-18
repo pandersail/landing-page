@@ -14,6 +14,7 @@ body {
     background-color: rgb(18, 34, 34);
     border-bottom-left-radius: 80px;
     border-bottom-right-radius: 80px;
+    flex: 1 1 auto;
     
 }
 
@@ -73,9 +74,6 @@ ul {
     font-size: 48px;
     font-weight: 900;
     color: #f9faf8;
-    font-family: 
-    
-
 }
 
 .title p {
@@ -168,13 +166,14 @@ h2 {
     justify-content: center;
     background-color: #e5e7eb;
     margin-top: 60px;
+    flex: 1 1 auto;
 }
 
 .quote p {
     color: #1f2937;
     font-size: 18px;
     font-style: italic;
-    flex: 0 1 auto;
+    flex: 1 1 auto;
     font-weight: 100;
     margin-left: 70px;
     margin-right: 70px;
