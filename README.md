@@ -1,5 +1,5 @@
 # landing-page
-Main image credit https://www.pexels.com/photo/white-canopy-tent-near-coastline-872831/
+
 
 Travel credit Photo by Adam Navarro</a> on <a href="https://unsplash.com/s/photos/travel-couple?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   

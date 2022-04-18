@@ -1,9 +1,19 @@
 body {
     margin: 0px;
+    background-color: #F6F5F1;
 }
-
+@font-face {
+    font-family: Canela;
+    src: url('canela-bold.ttf');
+}
+@font-face {
+    font-family: Canela regular;
+    src: url('Canela-Regular.ttf');
+}
 .header {
     background-color: rgb(18, 34, 34);
+    border-bottom-left-radius: 80px;
+    border-bottom-right-radius: 80px;
     
 }
 
@@ -27,16 +37,18 @@ body {
     justify-content: space-between;
     margin-left: 150px;
     margin-right: 150px;
-    
-
-
 }
+
 .banner {
     display: flex;
     width: 200px;
     height: auto;
     margin-left: 150px;
     flex: 0 1 auto;
+    border-radius: 10px;
+    -moz-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+-webkit-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+box-shadow: 1px 2px 3px rgba(0,0,0,.5);
 
 }
 
@@ -46,19 +58,22 @@ ul {
     align-items: center;
     gap: 40px;
     margin-right: 200px;
+    margin-bottom: 20px;
 }
 
 .link {
     text-decoration: none;
     list-style-type: none;
     color: #e5e7eb;
-    font-size: 18px;
+    font-size: 14px;
+    
 }
 
 .title h1 {
     font-size: 48px;
     font-weight: 900;
     color: #f9faf8;
+    font-family: 
     
 
 }
@@ -73,15 +88,25 @@ ul {
     height: auto;
     margin-bottom: 15px;
     flex: 0 1 aut;
+    border-radius: 50px;
+    box-shadow: 5px 5px 20px black;
 }
 
 button {
     padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
     background-color:rgb(253, 172, 72);
     font-size: 20px;
-    margin-top: 15px;
+    margin-top: 0px;
+    margin-bottom: 5px;
     color: #f9faf8;
     font-weight: 700;
+    border: 0px;
+    flex: 0 1 auto;
+    border-radius: 10px;
+    text-align: center;
+    margin: 15px;
 
 }
 
@@ -96,7 +121,7 @@ button {
 }
 
 .selection-text img {
-    height: 80px;
+    height: 70px;
     width: auto;
     
 }
@@ -117,14 +142,19 @@ h2 {
     width: 200px;
     height: 200px;
     flex: 0 1 auto;
+    border:rgb(18, 34, 34);
+    border-radius: 6px;
+    border-style: groove;
 }
+
+
 
 .subtext {
     display: flex;
-    justify-content: center;
-    gap: 130px;
-    margin-left: 40px;
-    margin-right: 30px;
+    justify-content: space-around;
+    
+    margin-left: 240px;
+    margin-right: 230px;
 }
 
 .subtext p {
@@ -137,12 +167,16 @@ h2 {
     display: flex;
     justify-content: center;
     background-color: #e5e7eb;
-    margin-top: 80px;
+    margin-top: 60px;
 }
 
 .quote p {
     color: #1f2937;
-    font-size: 36px;
+    font-size: 18px;
     font-style: italic;
     flex: 0 1 auto;
+    font-weight: 100;
+    margin-left: 70px;
+    margin-right: 70px;
+    font-family: Arial, Helvetica, sans-serif;
 }
