@@ -3,8 +3,8 @@ body {
 }
 
 .header {
-    background-color: rgb(25, 47, 48);
-    color: white;
+    background-color: rgb(18, 34, 34);
+    
 }
 
 .body {
@@ -25,8 +25,8 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 150px;
+    margin-right: 150px;
     
 
 
@@ -35,7 +35,7 @@ body {
     display: flex;
     width: 200px;
     height: auto;
-    margin-left: 190px;
+    margin-left: 150px;
     flex: 0 1 auto;
 
 }
@@ -51,26 +51,98 @@ ul {
 .link {
     text-decoration: none;
     list-style-type: none;
+    color: #e5e7eb;
+    font-size: 18px;
 }
 
-.title {
+.title h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
     
 
 }
 
 .title p {
     margin-top: 40px;
+    font-size: 18px;
+    color: #e5e7eb;
 }
 .main-image {
     width: 450px;
-    height: 260px;
+    height: auto;
     margin-bottom: 15px;
+    flex: 0 1 aut;
 }
 
 button {
     padding: 10px;
     background-color:rgb(253, 172, 72);
-    font-size: medium;
-    margin-top: 40px;
+    font-size: 20px;
+    margin-top: 15px;
+    color: #f9faf8;
+    font-weight: 700;
 
+}
+
+.selection-text {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    margin-top: 25px;
+    
+    
+}
+
+.selection-text img {
+    height: 80px;
+    width: auto;
+    
+}
+
+h2 {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+.selection-image {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.selection-image img {
+    width: 200px;
+    height: 200px;
+    flex: 0 1 auto;
+}
+
+.subtext {
+    display: flex;
+    justify-content: center;
+    gap: 130px;
+    margin-left: 40px;
+    margin-right: 30px;
+}
+
+.subtext p {
+    font-size: 18px;
+    color: #949597;
+    flex: 0 1 auto;
+}
+
+.quote {
+    display: flex;
+    justify-content: center;
+    background-color: #e5e7eb;
+    margin-top: 80px;
+}
+
+.quote p {
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+    flex: 0 1 auto;
 }
