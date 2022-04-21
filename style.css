@@ -15,6 +15,7 @@ body {
     border-bottom-left-radius: 80px;
     border-bottom-right-radius: 80px;
     flex: 1 1 auto;
+    padding-top: 20px;
     
 }
 
@@ -27,8 +28,9 @@ body {
     display: flex;
     justify-content:space-between;
     align-content: center;
-    padding: 0px;
-    margin: px;
+    
+    
+    
     
 }
 
@@ -38,7 +40,9 @@ body {
     justify-content: space-between;
     margin-left: 150px;
     margin-right: 150px;
+    flex: 1 1 auto;
 }
+
 
 .banner {
     display: flex;
@@ -91,9 +95,10 @@ ul {
 }
 
 button {
-    padding: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
     background-color:rgb(253, 172, 72);
     font-size: 20px;
     margin-top: 0px;
@@ -150,7 +155,7 @@ h2 {
 .subtext {
     display: flex;
     justify-content: space-around;
-    
+    position: relative;
     margin-left: 240px;
     margin-right: 230px;
 }
@@ -178,4 +183,48 @@ h2 {
     margin-left: 70px;
     margin-right: 70px;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.pop-up {
+    display: flex;
+    justify-content:flex-start;
+    flex-wrap: wrap;
+    margin: 100px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 30px;
+    border-radius: 10px;
+    align-items: center;
+    flex: 1 1 auto;
+}
+
+.donate-button {
+    padding: 20px;
+    margin-left: 100px;
+    margin-bottom: 60px;
+    font-size: 20px;
+   
+}
+
+.pop-up strong {
+    font-size: 30px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    color: #e5e7eb;
+    font-size: 18px;
+    background-color: rgb(18, 34, 34);
+    align-items: center;
+    padding: 10px;
+    gap: 15px;
+    flex: 1 1 auto;
+    
+
+}
+
+.footer img {
+    width: 100px;
+    height: auto;
 }
